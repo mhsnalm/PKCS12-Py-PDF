@@ -90,7 +90,7 @@ def sign_file(input_file: str, signatureID: str, x_coordinate: int,
     if not output_file:
         output_file = (os.path.splitext(input_file)[0]) + "_signed.pdf"
     # Initialize the library
-    PDFNet.Initialize('demo:1724848801856:7e5d681c0300000000609978cfa36e8e028ef25c687848e87bc00f5cf5')
+    PDFNet.Initialize('')
     doc = PDFDoc(input_file)
     # Create a signature field
     sigField = SignatureWidget.Create(doc, Rect(
