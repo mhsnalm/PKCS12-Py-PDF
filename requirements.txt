@@ -1,0 +1,4 @@
+PDFNetPython3==9.5.0.post1
+pyOpenSSL==22.1.0
+pyHanko
+pillow
